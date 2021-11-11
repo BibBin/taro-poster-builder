@@ -6,7 +6,7 @@ taro-vue3-poster-builder 基于taro3.x+vue3的微信小程序 canvas 绘图组�
 
 
 ## 生成效果
-<img width="300" src="https://github.com/BibBin/taro-poster-builder/src/image/test_poster.png"></img> 
+<img width="300" src="https://github.com/BibBin/taro-poster-builder/blob/main/src/image/test_poster.png"></img> 
 
 ## 安装使用
 

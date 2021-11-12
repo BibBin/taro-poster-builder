@@ -56,7 +56,7 @@ import PosterBuilder from '../../components/PosterBuilder/index.vue';
 | borderColor       | String           | 否   | 边框颜色                               |
 | backgroundColor   | String           | 否   | 背景颜色                               |
 | borderRadius      | Number(单位:rpx) | 否   | 圆角                                   |
-| borderRadiusGroup ｜ Number[]        | 否   | 圆角数组                                |
+| borderRadiusGroup | Number[]        | 否   | 圆角数组                                |
 | text              | Object           | 否   | 块里面可以填充文字，参考texts字段解释  |
 | zIndex            | Int              | 否   | 层级，越大越高                         |
 
@@ -93,7 +93,7 @@ import PosterBuilder from '../../components/PosterBuilder/index.vue';
 | width             | Number(单位:rpx) | 是   | 宽度（**会根据图片的尺寸同比例缩放**）    |
 | height            | Number(单位:rpx) | 是   | 高度（**会根据图片的尺寸同比例缩放**）    |
 | borderRadius      | Number(单位:rpx) | 否   | 圆角，跟css一样                           |
-| borderRadiusGroup ｜ Number[]        | 否   | 圆角数组                                |
+| borderRadiusGroup | Number[]        | 否   | 圆角数组                                |
 | borderWidth       | Number(单位:rpx) | 否   | 边框宽度                                  |
 | borderColor       | String           | 否   | 边框颜色                                  |
 | zIndex            | Int              | 否   | 层级，越大越高                            |

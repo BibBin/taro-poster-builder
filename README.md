@@ -10,6 +10,18 @@ taro-vue3-poster-builder 基于taro3.x+vue3的微信小程序 canvas 绘图组�
 
 ## 安装使用
 
+### 方式一：通过 npm 安装 (推荐)
+
+小程序已经支持使用 npm 安装第三方包，详见 [npm 支持](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html?search-key=npm)
+
+``` bash
+# npmnpm
+npm i poster-builder -S --production
+
+# yarn
+yarn add poster-builder --production
+```
+
 ### 下载代码
 
 直接通过 git 下载 taro-poster-builder 源代码，并将`src/component/PosterBuilder`目录拷贝到自己的项目的 `src/component`目录中

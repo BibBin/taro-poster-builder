@@ -1,8 +1,9 @@
 {
-  "name": "basic-template",
+  "name": "poster-builder",
   "version": "1.0.0",
   "private": true,
-  "description": "小程序",
+  "description": "小程序海报生成器",
+  "main": "src/index.js",
   "templateInfo": {
     "name": "vue3-vuex",
     "typescript": true,

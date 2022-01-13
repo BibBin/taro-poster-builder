@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "dtonetouchplus",
-  "description": "点餐小程序",
+  "projectname": "taro-poster-builder",
+  "description": "小程序海报生成器",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,

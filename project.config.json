@@ -4,7 +4,7 @@
   "description": "小程序海报生成器",
   "appid": "wx48c8401f7fc81a92",
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": false,
     "enhance": true,
     "postcss": false,

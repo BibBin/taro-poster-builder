@@ -1,6 +1,15 @@
+<template>
+  <canvas
+    type="2d"
+    :id="canvasId"
+    :style="`height: ${height}rpx; width:${width}rpx;
+    position: absolute;
+    ${debug ? '' : 'transform:translate3d(-9999rpx, 0, 0)'}`"
+  />
+</template>
 <script lang="ts">
 import Taro from "@tarojs/taro"
-import { defineComponent, onMounted, PropType, ref, h } from "vue"
+import { defineComponent, onMounted, PropType, ref } from "vue"
 import { Image, DrawConfig } from "./types"
 import { drawImage, drawText, drawBlock, drawLine } from "./utils/draw"
 import {
@@ -199,17 +208,12 @@ export default defineComponent({
       init()
     })
 
-    return () =>
-      h("canvas", {
-        type: "2d",
-        id: canvasId,
-        style: {
-          position: "absolute",
-          height: `${height}rpx`,
-          width: `${width}rpx`,
-          transform: `translate3d(${debug ? 0 : "-9999rpx"}, 0, 0)`,
-        },
-      })
+    return {
+      canvasId,
+      debug,
+      width,
+      height,
+    }
   },
 })
 </script>

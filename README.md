@@ -22,13 +22,23 @@ npm i poster-builder -S --production
 yarn add poster-builder --production
 ```
 
-### 下载代码
+#### 使用组件
+
+```javascript
+
+import PosterBuilder from 'poster-builder';
+
+
+```
+
+### 方法二：下载代码
 
 直接通过 git 下载 taro-poster-builder 源代码，并将`src/component/PosterBuilder`目录拷贝到自己的项目的 `src/component`目录中
 
 #### 使用组件
 
 ```javascript
+
 import PosterBuilder from '../../components/PosterBuilder/index.vue';
 
 ```

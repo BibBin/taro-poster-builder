@@ -1,2 +1,2 @@
 import PosterBuilder from "./components/PosterBuilder/index.vue";
-export { PosterBuilder };
+export default PosterBuilder;
